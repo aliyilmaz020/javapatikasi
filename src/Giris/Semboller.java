@@ -1,6 +1,6 @@
 package Giris;
 
-public class Main {
+public class Semboller {
     public static void main(String[] args) {
         System.out.println("Java101 Patikası \nBaşlıyoruz");
         System.out.println("Java101 Patikası \tBaşlıyoruz");

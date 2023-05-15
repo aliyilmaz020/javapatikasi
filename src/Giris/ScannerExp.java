@@ -2,7 +2,7 @@ package Giris;
 
 import java.util.Scanner;
 
-public class Scanner_ {
+public class ScannerExp {
     public static void main(String[] args) {
         int a;
         Scanner input = new Scanner(System.in);
