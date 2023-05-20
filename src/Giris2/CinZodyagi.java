@@ -50,6 +50,7 @@ public class CinZodyagi {
                 break;
             default:
                 System.out.println("Geçersiz.");
+                break;
         }
         System.out.println("Çin Zodyağı Burcunuz : "+burc);
     }
