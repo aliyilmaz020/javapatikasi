@@ -18,7 +18,8 @@ public class GirilenSayi3_4 {
                 sayac++;
             }
         }
-        ortalama = toplam/sayac;
+        ortalama = (double) toplam /sayac;
+        System.out.println("--------------------------------");
         System.out.println("Ortalama : "+ ortalama+"\nSayıların Toplamı : "+toplam+"\nToplam Sayı : "+sayac);
 
     }
