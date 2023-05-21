@@ -1,3 +1,5 @@
+package Giris2;
+
 import java.util.Scanner;
 
 public class ElmasDeseni {
