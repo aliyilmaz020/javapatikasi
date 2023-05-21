@@ -1,4 +1,4 @@
-package Giris2;
+package Donguler;
 
 import java.util.Scanner;
 
