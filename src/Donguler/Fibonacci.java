@@ -11,7 +11,7 @@ public class Fibonacci {
         int num2 = 1;
         int toplam;
         for (int i = 0; i<=sayi;i++){
-            System.out.print(num1+" ");
+            System.out.print(num1+"     ");
             toplam = num1+num2;
             num1 = num2;
             num2 = toplam;
