@@ -1,7 +1,5 @@
 package Arrays;
 
-import java.util.Arrays;
-
 public class TekrarSayi {
 
   static boolean isFind(int arr[], int value) {
