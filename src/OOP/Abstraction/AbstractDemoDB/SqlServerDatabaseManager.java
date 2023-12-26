@@ -1,0 +1,10 @@
+package OOP.Abstraction.AbstractDemoDB;
+
+public class SqlServerDatabaseManager extends BaseDatabaseManager {
+
+  @Override
+  public void getData() {
+    System.out.println("Veri getirildi: SQL Server");
+  }
+
+}
