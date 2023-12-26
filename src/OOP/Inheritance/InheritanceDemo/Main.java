@@ -3,6 +3,6 @@ package OOP.Inheritance.InheritanceDemo;
 public class Main {
   public static void main(String[] args) {
     KrediUI krediUI = new KrediUI();
-    krediUI.KrediHesapla(new AskerKrediManager());
+    krediUI.krediHesapla(new AskerKrediManager());
   }
 }
