@@ -1,4 +1,4 @@
-package OOP.Inheritance;
+package OOP.Inheritance.ETrade;
 
 public class PersonManager {
   public void List() {
