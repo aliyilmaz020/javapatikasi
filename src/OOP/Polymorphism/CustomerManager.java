@@ -1,4 +1,4 @@
-package OOP.Polymorphism;
+package oop.polymorphism;
 
 public class CustomerManager {
   private BaseLogger logger;

@@ -1,4 +1,4 @@
-package OOP.Interfaces.InterfaceDemo;
+package oop.interfaces.interfaceDemo;
 
 public interface IEatable {
   void eat();

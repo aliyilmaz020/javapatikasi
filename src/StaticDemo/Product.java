@@ -1,4 +1,4 @@
-package StaticDemo;
+package staticDemo;
 
 public class Product {
   int id;

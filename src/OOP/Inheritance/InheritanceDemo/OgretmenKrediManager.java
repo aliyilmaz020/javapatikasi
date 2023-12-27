@@ -1,4 +1,4 @@
-package OOP.Inheritance.InheritanceDemo;
+package oop.inheritance.inheritanceDemo;
 
 public class OgretmenKrediManager extends BaseKrediManager {
 

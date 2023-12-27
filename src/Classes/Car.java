@@ -1,36 +1,36 @@
-package Classes;
+package classes;
 
 class Car {
-    //Nitelikler
+    // Nitelikler
     String type;
     String model;
     String color;
     int speed;
     int speedLimit;
 
-    Car(String model, int speed,String color){
+    Car(String model, int speed, String color) {
         this.model = model;
         this.speed = speed;
         this.color = color;
         this.type = "SEDAN";
-        //System.out.println(this.model);
+        // System.out.println(this.model);
     }
-    //Davranışlar
-    void increaseSpeed(int increment){
-        if((speed+increment)<speedLimit) {
-            speed+=increment;
+
+    // Davranışlar
+    void increaseSpeed(int increment) {
+        if ((speed + increment) < speedLimit) {
+            speed += increment;
         }
     }
 
-    void decreaseSpeed(int decrease){
-        if(speed>0){
+    void decreaseSpeed(int decrease) {
+        if (speed > 0) {
             speed -= decrease;
         }
     }
 
-    void printSpeed(){
-        System.out.println(model+" Hızınız: " + speed);
+    void printSpeed() {
+        System.out.println(model + " Hızınız: " + speed);
     }
 
 }
-

@@ -1,4 +1,4 @@
-package OOP.Abstraction;
+package oop.abstraction;
 
 public class OlderGameCalculator extends GameCalculator {
 

@@ -1,17 +1,17 @@
-package Giris2;
+package giris2;
 
 import java.util.Scanner;
 
 public class CinZodyagi {
     public static void main(String[] args) {
-        int yil,zodyag;
+        int yil, zodyag;
         String burc = "";
         Scanner input = new Scanner(System.in);
         System.out.print("Doğum Yılınızı Giriniz : ");
         yil = input.nextInt();
         zodyag = yil % 12;
 
-        switch (zodyag){
+        switch (zodyag) {
             case 0:
                 burc = "Maymun";
                 break;
@@ -52,6 +52,6 @@ public class CinZodyagi {
                 System.out.println("Geçersiz.");
                 break;
         }
-        System.out.println("Çin Zodyağı Burcunuz : "+burc);
+        System.out.println("Çin Zodyağı Burcunuz : " + burc);
     }
 }

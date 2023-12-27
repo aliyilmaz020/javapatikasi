@@ -1,4 +1,5 @@
-package Giris2;
+package giris2;
+
 import java.util.Scanner;
 
 public class ArtikYilProgrami {
@@ -27,4 +28,3 @@ public class ArtikYilProgrami {
         }
     }
 }
-

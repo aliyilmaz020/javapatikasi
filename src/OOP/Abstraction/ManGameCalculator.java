@@ -1,4 +1,4 @@
-package OOP.Abstraction;
+package oop.abstraction;
 
 public class ManGameCalculator extends GameCalculator {
   public void hesapla() {

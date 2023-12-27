@@ -1,10 +1,10 @@
-package Giris;
+package giris;
 
 import java.util.Scanner;
 
 public class GPA {
     public static void main(String[] args) {
-        int Mathematic,Physic,Chemistry,Turkish,History,Music;
+        int Mathematic, Physic, Chemistry, Turkish, History, Music;
         Scanner input = new Scanner(System.in);
         System.out.print("Matematik notunu giriniz: ");
         Mathematic = input.nextInt();
@@ -19,18 +19,13 @@ public class GPA {
         System.out.print("Muzik notunu giriniz: ");
         Music = input.nextInt();
 
-        double average = (Mathematic+Physic+Chemistry+
-                Turkish+History+Music)/6.0;
+        double average = (Mathematic + Physic + Chemistry +
+                Turkish + History + Music) / 6.0;
         System.out.println("#######################");
-        System.out.println("Not ortalaması: "+ average);
+        System.out.println("Not ortalaması: " + average);
 
-        String result  = (average >= 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
+        String result = (average >= 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
         System.out.println(result);
-
-
-
-
-
 
     }
 }

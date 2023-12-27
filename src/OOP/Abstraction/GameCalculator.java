@@ -1,4 +1,4 @@
-package OOP.Abstraction;
+package oop.abstraction;
 
 public abstract class GameCalculator {
   // public void hesapla() {

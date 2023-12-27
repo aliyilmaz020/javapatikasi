@@ -1,4 +1,4 @@
-package Giris;
+package giris;
 
 public class Byte_Short_Int_Long_DataTypes {
     public static void main(String[] args) {

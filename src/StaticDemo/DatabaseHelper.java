@@ -1,4 +1,4 @@
-package StaticDemo;
+package staticDemo;
 
 public class DatabaseHelper {
   public static class Crud { // Crud --> Create read update delete

@@ -1,4 +1,4 @@
-package Giris;
+package giris;
 
 import java.util.Scanner;
 
@@ -19,9 +19,9 @@ public class ManavKasa {
         System.out.print("Patlıcan Kaç Kilo ? :");
         patlican = input.nextInt();
 
-        tutar = armut*2.14+elma*3.67+domates*1.11+muz*0.95+patlican*5.0;
+        tutar = armut * 2.14 + elma * 3.67 + domates * 1.11 + muz * 0.95 + patlican * 5.0;
 
-        System.out.println("Toplam Tutar : "+tutar+" TL");
+        System.out.println("Toplam Tutar : " + tutar + " TL");
 
     }
 }

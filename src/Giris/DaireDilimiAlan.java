@@ -1,4 +1,4 @@
-package Giris;
+package giris;
 
 import java.util.Scanner;
 
@@ -13,9 +13,8 @@ public class DaireDilimiAlan {
         System.out.print("Daire Diliminin Merkez Açısını Giriniz: ");
         aciOlcusu = input.nextInt();
 
-        alan = (pi*Math.pow(yaricap,2)*aciOlcusu)/360;
-        System.out.println("Daire diliminin alanı: "+alan);
-
+        alan = (pi * Math.pow(yaricap, 2) * aciOlcusu) / 360;
+        System.out.println("Daire diliminin alanı: " + alan);
 
     }
 }

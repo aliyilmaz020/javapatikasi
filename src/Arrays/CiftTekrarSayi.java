@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 public class CiftTekrarSayi {
   static boolean isFind(int arr[], int value) {

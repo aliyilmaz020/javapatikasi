@@ -1,4 +1,4 @@
-package OOP.Inheritance.ETrade;
+package oop.inheritance.eTrade;
 
 public class EmployeeManager extends PersonManager {
 

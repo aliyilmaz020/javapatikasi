@@ -1,4 +1,4 @@
-package OOP.Abstraction.AbstractDemoDB;
+package oop.abstraction.abstractDemoDB;
 
 public abstract class BaseDatabaseManager {
   public abstract void getData();

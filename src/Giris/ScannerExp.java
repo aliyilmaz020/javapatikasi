@@ -1,4 +1,4 @@
-package Giris;
+package giris;
 
 import java.util.Scanner;
 

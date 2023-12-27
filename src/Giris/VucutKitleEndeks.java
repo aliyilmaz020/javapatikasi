@@ -1,4 +1,4 @@
-package Giris;
+package giris;
 
 import java.util.Scanner;
 
@@ -11,8 +11,8 @@ public class VucutKitleEndeks {
         boy = input.nextDouble();
         System.out.print("Lütfen kilonuzu giriniz: ");
         kilo = input.nextInt();
-        indeks = kilo/Math.pow(boy,2);
-        System.out.println("Vücut kitle indeksiniz: "+indeks);
+        indeks = kilo / Math.pow(boy, 2);
+        System.out.println("Vücut kitle indeksiniz: " + indeks);
 
     }
 }

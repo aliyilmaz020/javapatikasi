@@ -1,4 +1,4 @@
-package PackagesDemo.matematik;
+package packagesDemo.matematik;
 
 public class DortIslem {
   public int topla(int sayi1, int sayi2) {

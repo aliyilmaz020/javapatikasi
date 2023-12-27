@@ -1,4 +1,4 @@
-package OOP.Abstraction.AbstractDemoDB;
+package oop.abstraction.abstractDemoDB;
 
 public class SqlServerDatabaseManager extends BaseDatabaseManager {
 

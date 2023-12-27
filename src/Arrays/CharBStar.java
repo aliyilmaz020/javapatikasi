@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 // 0 ve 5. sütunlarla başlayanlar *
 // 0, 3 ve 6. satırlarla başlayanlar ise *

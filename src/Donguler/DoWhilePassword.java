@@ -1,4 +1,4 @@
-package Donguler;
+package donguler;
 
 import java.util.Scanner;
 
@@ -7,15 +7,15 @@ public class DoWhilePassword {
         int password;
         boolean kontrol = true;
         Scanner input = new Scanner(System.in);
-        do{
+        do {
             System.out.print("Şifreyi giriniz : ");
             password = input.nextInt();
-            if(password == 123){
+            if (password == 123) {
                 System.out.println("Doğru");
                 kontrol = false;
-            }else{
+            } else {
                 System.out.println("Yanlış");
             }
-        }while(kontrol);
+        } while (kontrol);
     }
 }

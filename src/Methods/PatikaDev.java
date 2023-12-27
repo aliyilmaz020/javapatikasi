@@ -1,8 +1,11 @@
-package Methods;
+package methods;
+
 public class PatikaDev {
     static int as(int i) {
-        if (i < 2) return 1;
-        else return (i * as(i - 1));
+        if (i < 2)
+            return 1;
+        else
+            return (i * as(i - 1));
     }
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Donguler;
+package donguler;
 
 import java.util.Scanner;
 
@@ -10,8 +10,8 @@ public class Harmonik {
         System.out.print("Sayı giriniz : ");
         sayi = input.nextInt();
         toplam = 0;
-        for(int i = 1; i<=sayi; i++ ){
-            toplam += (1.0/i);
+        for (int i = 1; i <= sayi; i++) {
+            toplam += (1.0 / i);
         }
         System.out.println(toplam);
     }

@@ -1,4 +1,4 @@
-package Classes.Calculator;
+package classes.calculator;
 
 public class DortIslem {
   public double topla(double num1, double num2) {

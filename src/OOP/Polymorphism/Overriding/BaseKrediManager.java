@@ -1,4 +1,4 @@
-package OOP.Polymorphism.Overriding;
+package oop.polymorphism.overriding;
 
 public class BaseKrediManager {
   // final overriding ban

@@ -1,4 +1,4 @@
-package OOP.Polymorphism;
+package oop.polymorphism;
 
 public class EmailLogger extends BaseLogger {
   public void log(String message) {

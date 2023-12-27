@@ -1,4 +1,4 @@
-package OOP.Polymorphism.Overriding;
+package oop.polymorphism.overriding;
 
 public class OgrenciKrediManager extends BaseKrediManager {
   public double hesapla(double tutar) {

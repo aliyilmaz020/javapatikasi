@@ -1,4 +1,4 @@
-package Donguler;
+package donguler;
 
 public class AsalSayilar {
     public static void main(String[] args) {

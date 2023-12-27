@@ -1,9 +1,9 @@
-package Giris;
+package giris;
 
 public class Command {
     public static void main(String[] args) {
-        //Programın Baslangıcı
-        /*Burası Ali Sami Yen */
+        // Programın Baslangıcı
+        /* Burası Ali Sami Yen */
 
         /**
          * @author Ali Yılmaz, 2023

@@ -1,4 +1,4 @@
-package Donguler;
+package donguler;
 
 import java.util.Scanner;
 

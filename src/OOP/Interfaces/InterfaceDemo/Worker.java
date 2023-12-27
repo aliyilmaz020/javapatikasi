@@ -1,4 +1,4 @@
-package OOP.Interfaces.InterfaceDemo;
+package oop.interfaces.interfaceDemo;
 
 //Our Worker
 public class Worker implements IWorkable, IEatable, IPayable {

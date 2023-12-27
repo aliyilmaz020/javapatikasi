@@ -1,4 +1,5 @@
-package Giris2;
+package giris2;
+
 import java.util.Scanner;
 
 public class KucuktenBuyuge {
@@ -47,4 +48,3 @@ public class KucuktenBuyuge {
         System.out.println(enKucuk + " " + ortanca + " " + enBuyuk);
     }
 }
-

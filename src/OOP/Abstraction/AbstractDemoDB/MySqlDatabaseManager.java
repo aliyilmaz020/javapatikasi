@@ -1,4 +1,4 @@
-package OOP.Abstraction.AbstractDemoDB;
+package oop.abstraction.abstractDemoDB;
 
 public class MySqlDatabaseManager extends BaseDatabaseManager {
 

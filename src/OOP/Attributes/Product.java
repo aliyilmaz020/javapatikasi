@@ -1,4 +1,4 @@
-package OOP.Attributes;
+package oop.attributes;
 
 public class Product {
 

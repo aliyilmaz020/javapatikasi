@@ -1,4 +1,4 @@
-package OOP.Interfaces.InterfaceDemo;
+package oop.interfaces.interfaceDemo;
 
 public class Robot implements IWorkable {
 

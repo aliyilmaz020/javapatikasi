@@ -1,4 +1,4 @@
-package Giris;
+package giris;
 
 import java.util.Scanner;
 
@@ -9,10 +9,9 @@ public class KDV_Example {
         System.out.print("Para tutarını giriniz: ");
         tutar = input.nextInt();
 
-        double kdvTutari = (tutar>=0 && tutar<1000) ? tutar+tutar*0.18:
-                tutar+tutar*0.08;
-        System.out.print("KDV'siz Fiyat = "+tutar+
-                "\nKDV'li Fiyat = "+kdvTutari);
+        double kdvTutari = (tutar >= 0 && tutar < 1000) ? tutar + tutar * 0.18 : tutar + tutar * 0.08;
+        System.out.print("KDV'siz Fiyat = " + tutar +
+                "\nKDV'li Fiyat = " + kdvTutari);
 
     }
 }

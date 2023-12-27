@@ -1,4 +1,4 @@
-package Giris;
+package giris;
 
 public class Semboller {
     public static void main(String[] args) {
@@ -10,7 +10,6 @@ public class Semboller {
         System.out.println("Java101 Patikası \fBaşlıyoruz");
         System.out.println("Ali \"Murat\"");
         System.out.println("Java101\\klasor\\metin.txt");
-
 
     }
 }

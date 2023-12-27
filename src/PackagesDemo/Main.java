@@ -1,8 +1,8 @@
-package PackagesDemo;
+package packagesDemo;
 
 import java.util.Scanner;
 
-import PackagesDemo.matematik.*;
+import packagesDemo.matematik.*;
 
 public class Main {
   public static void main(String[] args) {

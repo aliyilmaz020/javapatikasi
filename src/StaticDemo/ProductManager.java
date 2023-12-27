@@ -1,4 +1,4 @@
-package StaticDemo;
+package staticDemo;
 
 public class ProductManager {
   public void add(Product product) {

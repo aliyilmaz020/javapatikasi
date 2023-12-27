@@ -1,4 +1,4 @@
-package OOP.Abstraction.AbstractDemoDB;
+package oop.abstraction.abstractDemoDB;
 
 public class Main {
   public static void main(String[] args) {

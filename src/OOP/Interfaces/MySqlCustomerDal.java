@@ -1,4 +1,4 @@
-package OOP.Interfaces;
+package oop.interfaces;
 
 public class MySqlCustomerDal implements ICustomerDal, IRepository {
 

@@ -1,10 +1,11 @@
-package Arrays;
+package arrays;
 
 import java.util.Scanner;
 import java.util.Arrays;
+
 public class MinMaxME {
     public static void main(String[] args) throws Exception {
-        int [] list = {15,12,788,1,-1,-778,2,0};
+        int[] list = { 15, 12, 788, 1, -1, -778, 2, 0 };
         Arrays.sort(list);
         int minClosed = 0;
         int maxClosed = 0;

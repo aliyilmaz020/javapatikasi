@@ -1,4 +1,4 @@
-package Giris;
+package giris;
 
 public class Float_Double {
     public static void main(String[] args) {

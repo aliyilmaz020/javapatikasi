@@ -1,4 +1,4 @@
-package Donguler;
+package donguler;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class StarTrigon {
         System.out.print("Sayı giriniz : ");
         sayi = input.nextInt();
 
-        for(int i = 1; i<=sayi;i++){
+        for (int i = 1; i <= sayi; i++) {
             System.out.print(c);
         }
 

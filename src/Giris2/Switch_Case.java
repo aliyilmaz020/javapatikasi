@@ -1,9 +1,9 @@
-package Giris2;
+package giris2;
 
 public class Switch_Case {
     public static void main(String[] args) {
-        int day =2;
-        switch (day){
+        int day = 2;
+        switch (day) {
             case 1:
                 System.out.println("pzt");
                 break;

@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 public class Frequence {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package OBS;
+package obs;
 
 public class Course {
     Teacher teacher;
@@ -10,24 +10,26 @@ public class Course {
     double sozluEtki;
     double finalEtki;
 
-    Course(String name, String code, String prefix,double sozluEtki,double finalEtki){
+    Course(String name, String code, String prefix, double sozluEtki, double finalEtki) {
         this.name = name;
         this.code = code;
         this.prefix = prefix;
         this.sozluEtki = sozluEtki;
         this.finalEtki = finalEtki;
     }
-    void addTeacher(Teacher teacher){
-        if(teacher.branch.equals(this.prefix)){
+
+    void addTeacher(Teacher teacher) {
+        if (teacher.branch.equals(this.prefix)) {
             this.teacher = teacher;
-        }else{
+        } else {
             System.out.println("Bölüm Kodu Aynı Değil!");
         }
     }
-    void printTeacher(){
-        System.out.println("Öğretmenin adı: "+this.teacher.name);
+
+    void printTeacher() {
+        System.out.println("Öğretmenin adı: " + this.teacher.name);
         System.out.println("Bölümü: " + this.teacher.branch);
-        System.out.println("Telefon Numarası: "+this.teacher.mpno);
+        System.out.println("Telefon Numarası: " + this.teacher.mpno);
         System.out.println("---------------------------");
     }
 }
