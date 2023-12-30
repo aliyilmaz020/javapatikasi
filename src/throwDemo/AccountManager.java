@@ -7,11 +7,11 @@ public class AccountManager {
     this.balance = getBalance() + amount;
   }
 
-  public void withdraw(double amount) throws Exception {
+  public void withdraw(double amount) throws BalanceInsufficentExpection {
     if (balance >= amount) {
       this.balance = getBalance() - amount;
     } else {
-      throw new Exception("Bakiye yetersiz.");
+      throw new BalanceInsufficentExpection("Bakiye yetersiz.");
     }
 
   }
