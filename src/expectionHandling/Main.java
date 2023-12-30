@@ -14,3 +14,10 @@ public class Main {
 
   }
 }
+/**
+ * Throwable : Expection - Error
+ * Expection : Runtime - IO - SQL - AWT - Interrupted
+ * Runtime Exp. :
+ * Arithmetic - NullPointer - ClassCast
+ * - IndexOutOfBounds : Array - String
+ */
