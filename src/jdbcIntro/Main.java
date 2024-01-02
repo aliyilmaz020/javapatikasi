@@ -15,8 +15,9 @@ public class Main {
     ResultSet resultSet; // İşlem sonucundaki veriseti
     try {
       connection = helper.getConnection();
-      String sql = "update city set population=80000,district='Pamukkale' where id = 4098";
+      String sql = "update city set population=2000,district='Pamukkale' where id = ?";
       statement = connection.prepareStatement(sql);
+      statement.setInt(1, 4098);
       int result = statement.executeUpdate();
       // System.out.println(result);
       System.out.println("Kayıt güncellendi");
