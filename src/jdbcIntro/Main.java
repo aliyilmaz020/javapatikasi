@@ -1,6 +1,7 @@
 package jdbcIntro;
 
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -8,6 +9,26 @@ import java.util.ArrayList;
 
 public class Main {
   public static void main(String[] args) throws SQLException {
+    Connection connection = null;
+    DbHelper helper = new DbHelper();
+    PreparedStatement statement = null; // Sql cümlesi ile ilgili işlemleri yapar
+    ResultSet resultSet; // İşlem sonucundaki veriseti
+    try {
+      connection = helper.getConnection();
+      statement = connection.prepareStatement(
+          "insert into city (Name,CountryCode,District,Population) values('Düzce','TUR','Düzce',50000)");
+      int result = statement.executeUpdate();
+      System.out.println(result);
+      System.out.println("Kayıt eklendi");
+    } catch (SQLException exception) {
+      helper.showErrorMessage(exception);
+    } finally {
+      statement.close();
+      connection.close();
+    }
+  }
+
+  public static void selectDemo() throws SQLException {
     Connection connection = null;
     DbHelper helper = new DbHelper();
     Statement statement = null; // Sql cümlesi ile ilgili işlemleri yapar
