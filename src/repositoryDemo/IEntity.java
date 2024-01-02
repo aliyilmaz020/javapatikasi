@@ -1,5 +1,5 @@
 package repositoryDemo;
 
-public interface IEntity {
+public interface IEntity { // D nesnesi
 
 }
