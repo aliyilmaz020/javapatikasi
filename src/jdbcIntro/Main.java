@@ -8,7 +8,32 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 public class Main {
-  public static void main(String[] args) throws SQLException {
+  public static void main(String[] args) {
+
+  }
+
+  public static void deleteData() throws SQLException {
+    Connection connection = null;
+    DbHelper helper = new DbHelper();
+    PreparedStatement statement = null; // Sql cümlesi ile ilgili işlemleri yapar
+    ResultSet resultSet; // İşlem sonucundaki veriseti
+    try {
+      connection = helper.getConnection();
+      String sql = "delete from city where id = ?";
+      statement = connection.prepareStatement(sql);
+      statement.setInt(1, 4098);
+      int result = statement.executeUpdate();
+      // System.out.println(result);
+      System.out.println("Kayıt güncellendi");
+    } catch (SQLException exception) {
+      helper.showErrorMessage(exception);
+    } finally {
+      statement.close();
+      connection.close();
+    }
+  }
+
+  public static void updateData() throws SQLException {
     Connection connection = null;
     DbHelper helper = new DbHelper();
     PreparedStatement statement = null; // Sql cümlesi ile ilgili işlemleri yapar
