@@ -15,10 +15,14 @@ public class Main {
     ResultSet resultSet; // İşlem sonucundaki veriseti
     try {
       connection = helper.getConnection();
-      statement = connection.prepareStatement(
-          "insert into city (Name,CountryCode,District,Population) values('Düzce','TUR','Düzce',50000)");
+      String sql = "insert into city (Name,CountryCode,District,Population) values(?,?,?,?)";
+      statement = connection.prepareStatement(sql);
+      statement.setString(1, "Denizli");
+      statement.setString(2, "TUR");
+      statement.setString(3, "Denizli");
+      statement.setInt(4, 1200000);
       int result = statement.executeUpdate();
-      System.out.println(result);
+      // System.out.println(result);
       System.out.println("Kayıt eklendi");
     } catch (SQLException exception) {
       helper.showErrorMessage(exception);
