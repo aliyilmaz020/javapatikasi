@@ -15,6 +15,26 @@ public class Main {
     ResultSet resultSet; // İşlem sonucundaki veriseti
     try {
       connection = helper.getConnection();
+      String sql = "update city set population=80000 where id = 4098";
+      statement = connection.prepareStatement(sql);
+      int result = statement.executeUpdate();
+      // System.out.println(result);
+      System.out.println("Kayıt güncellendi");
+    } catch (SQLException exception) {
+      helper.showErrorMessage(exception);
+    } finally {
+      statement.close();
+      connection.close();
+    }
+  }
+
+  public static void insertData() throws SQLException {
+    Connection connection = null;
+    DbHelper helper = new DbHelper();
+    PreparedStatement statement = null; // Sql cümlesi ile ilgili işlemleri yapar
+    ResultSet resultSet; // İşlem sonucundaki veriseti
+    try {
+      connection = helper.getConnection();
       String sql = "insert into city (Name,CountryCode,District,Population) values(?,?,?,?)";
       statement = connection.prepareStatement(sql);
       statement.setString(1, "Denizli");
